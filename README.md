@@ -1,10 +1,10 @@
-# Takuya's Homepage
+# Check out Takuya's Homepage since this project is just a rebrand with some changes of his
 
 [https://www.craftz.dog/](https://www.craftz.dog/)
 
 ## Tutorial
 
-Watch how I built this website on YouTube:
+Watch how Takuya built this website on YouTube:
 
 [![YouTube thumbnail](./doc/thumb.png)](https://www.youtube.com/watch?v=bSMZgXzC9AA)
 
@@ -42,6 +42,6 @@ Check out [LICENSE](./LICENSE) for more detail.
 
 ---
 
-Looking for a Markdown note-taking app? Check out my app called Inkdrop:
+Looking for a Markdown note-taking app? Check out Takuya's app called Inkdrop:
 
 [![Inkdrop](https://github.com/craftzdog/dotfiles-public/raw/master/images/inkdrop.png)](https://www.inkdrop.app/)
