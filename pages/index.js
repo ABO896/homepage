@@ -74,14 +74,14 @@ const Home = () => (
           Alvaro is a student at ISUtrecht who has many different passions from
           a young age computers have played a big role in his life. Recently, he
           decided to begin learning how to program as he would like that to be
-          something he studies in the future{' '}
+          something he studies in the future. {' '}
           <NextLink
             href="https://www.youtube.com/channel/UCFqlC2JCjIoDQp4xS4tODlA"
             passHref
           >
             <Link target="_blank">ABO896</Link>
           </NextLink>
-          &quot; has more than 70 subscribers
+          &quot; He also a small channel that has more than 70 subscribers
         </Paragraph>
       </Section>
 
