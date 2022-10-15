@@ -25,8 +25,8 @@ const Main = ({ children, router }) => {
         <meta name="twitter:site" content="@AlvaroBalduz" />
         <meta name="twitter:creator" content="@craftzdog" />
         <meta name="twitter:image" content="https://www.craftz.dog/card.png" />
-        <meta property="og:site_name" content="Alvaro Balduz" />
-        <meta name="og:title" content="Alvaro Balduz" />
+        <meta property="og:site_name" content="Alvaro Balduz's Homepage" />
+        <meta name="og:title" content="Alvaro Balduz's Homepage" />
         <meta property="og:type" content="website" />
         <meta property="og:image" content="https://www.craftz.dog/card.png" />
         <title>Alvaro Balduz - Homepage</title>
