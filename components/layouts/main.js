@@ -1,8 +1,8 @@
-import Head from 'next/head'
-import dynamic from 'next/dynamic'
-import NavBar from '../navbar'
 import { Box, Container } from '@chakra-ui/react'
+import dynamic from 'next/dynamic'
+import Head from 'next/head'
 import Footer from '../footer'
+import NavBar from '../navbar'
 import VoxelDogLoader from '../voxel-dog-loader'
 
 const LazyVoxelDog = dynamic(() => import('../voxel-dog'), {
@@ -15,7 +15,7 @@ const Main = ({ children, router }) => {
     <Box as="main" pb={8}>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="description" content="Alvaro's homepage" />
+        <meta name="description" content="Alvaro's Homepage" />
         <meta name="author" content="Alvaro Balduz" />
         <meta name="author" content="alvaro.frfr" />
         <link rel="apple-touch-icon" href="apple-touch-icon.png" />

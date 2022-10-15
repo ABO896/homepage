@@ -1,25 +1,18 @@
-import NextLink from 'next/link'
-import {
-  Link,
-  Container,
-  Heading,
-  Box,
-  SimpleGrid,
-  Button,
-  List,
-  ListItem,
-  useColorModeValue,
-  chakra
-} from '@chakra-ui/react'
 import { ChevronRightIcon } from '@chakra-ui/icons'
-import Paragraph from '../components/paragraph'
-import { BioSection, BioYear } from '../components/bio'
-import Layout from '../components/layouts/article'
-import Section from '../components/section'
-import { GridItem } from '../components/grid-item'
-import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub } from 'react-icons/io5'
-import thumbYouTube from '../public/images/links/youtube2.png'
+import {
+  Box, Button, chakra, Container,
+  Heading, Link, List,
+  ListItem, SimpleGrid, useColorModeValue
+} from '@chakra-ui/react'
 import Image from 'next/image'
+import NextLink from 'next/link'
+import { IoLogoGithub, IoLogoInstagram, IoLogoTwitter } from 'react-icons/io5'
+import { BioSection, BioYear } from '../components/bio'
+import { GridItem } from '../components/grid-item'
+import Layout from '../components/layouts/article'
+import Paragraph from '../components/paragraph'
+import Section from '../components/section'
+import thumbYouTube from '../public/images/links/youtube2.png'
 
 const ProfileImage = chakra(Image, {
   shouldForwardProp: prop => ['width', 'height', 'src', 'alt'].includes(prop)
@@ -75,7 +68,7 @@ const Home = () => (
 
       <Section delay={0.1}>
         <Heading as="h3" variant="section-title">
-          Projects
+          Bio
         </Heading>
         <Paragraph>
           Alvaro is a student at ISUtrecht who has many different passions from
@@ -88,33 +81,26 @@ const Home = () => (
           >
             <Link target="_blank">ABO896</Link>
           </NextLink>
-          &quot; has more than 70 subcribers
+          &quot; has more than 70 subscribers
         </Paragraph>
-        <Box align="center" my={4}>
-          <NextLink href="/works" passHref scroll={false}>
-            <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
-              My portfolio
-            </Button>
-          </NextLink>
-        </Box>
       </Section>
 
       <Section delay={0.2}>
         <Heading as="h3" variant="section-title">
-          Bio
+          Timeline
         </Heading>
         <BioSection>
           <BioYear>2006</BioYear>
-          Born in Zaragoza.
+          Born in Zaragoza, Spain.
         </BioSection>
         <BioSection>
           <BioYear>2014</BioYear>
           Moved to Utrecht, The Netherlands and have lived there ever since, and
-          joined Isutrecht.
+          joined ISUtrecht.
         </BioSection>
         <BioSection>
           <BioYear>2022</BioYear>
-          Began de DP programme at Isutrecht and began to focus on programming.
+          Began de DP programme at ISUtrecht and began to focus on programming.
         </BioSection>
         <BioSection>
           <BioYear>2022 to present</BioYear>
@@ -193,3 +179,4 @@ const Home = () => (
 
 export default Home
 export { getServerSideProps } from '../components/chakra'
+
